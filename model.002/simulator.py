@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#Time-stamp: <2018-10-23 14:14:00 hamada>
+#Time-stamp: <2018-10-23 17:44:17 hamada>
 import random
 
 random.seed(2)
@@ -11,19 +11,19 @@ lines = lines.split("\n")
 lines.pop(-1)
 lines.reverse()
 
-x = 100
-n = 1
+budget_JPY = 8000000
+nmax = 60
+c = budget_JPY / (nmax * 1.)
+x = c
 
 commits = []
-
+n = 1
 for s in lines:
-    c = 12345.
-    #print(n, x, c, s)
     commits.append({'n': n, 'x': x, 'c': c, 'hash': s})
     x = int(c + 0.5)
     n += 1
 
-budget_JPY = 8000000
+
 
 md  = ''
 md += "Initial Budget from a Client = %d JPY (example case)" % budget_JPY +"\n\n"
