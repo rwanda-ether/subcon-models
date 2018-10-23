@@ -1,4 +1,4 @@
-# Model 002
+# Model 002: LEM
 
 ## Description 
 

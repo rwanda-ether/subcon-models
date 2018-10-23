@@ -1,8 +1,8 @@
-# Model 002
+# Model 003: PEM
 
 ## Description 
 
-LEM: Linear Evolutional Model
+PEM: Parabolic Evolutional Model
 
 ## Incentive model
 

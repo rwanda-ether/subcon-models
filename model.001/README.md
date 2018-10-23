@@ -1,8 +1,8 @@
-# Model 001
+# Model 001: EEM
 
 ## Description 
 
-The first proposed model for subcon.
+The first proposed model for subcon called EEM: Exponential Evolutional Model
 
 ## Incentive model
 
