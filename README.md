@@ -12,3 +12,10 @@ This repository shows a list of models which are used for each subcon on a case-
 
  * <a href="./model.003">model.003</a>: PEM - Parabolic Evolutional Model
 
+## Comparision
+
+|:---|:---:|
+| EEM | <img src="./model.001/graph1.gif"|
+| LEM | <img src="./model.002/graph1.gif"|
+| PEM | <img src="./model.003/graph1.gif"|
+
