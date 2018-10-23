@@ -1,5 +1,5 @@
 #!/usr/bin/env gnuplot
-#Time-stamp: <Mon Oct 22 12:24:15 JST 2018 hamada>
+#Time-stamp: <2018-10-23 14:17:09 hamada>
 
 # graph1 -----------------
 set y2tics
@@ -43,7 +43,7 @@ set ylabel "X(n) [JPY]"
 set y2label "C(n)"
 set key left top box lt 3 lw 1 
 set grid
-set y2range [1.0:4.0]
+#set y2range [1.0:4.0]
 
 plot "plotdata.log" u 1:2 axis x1y1 w lp lt 1 title "X(n) [JPY]", \
      "plotdata.log" u 1:3 axis x1y2 w lp lt 2 title "C(n)"
