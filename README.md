@@ -2,11 +2,11 @@
 
 ## Description 
 
-The repository shows the list of models used for each subcon.
+This repository shows a list of models which are used for each subcon on a case-by-case.
 
 ## Models
 
- * <a href="./model.001">model.001</a>: 1stGen - the first generation model which evolve exponentially
+ * <a href="./model.001">model.001</a>: 1stGen - the first generation model which evolves exponentially
 
- * <a href="./model.002">model.001</a>: Linear - the second generation model which evolve linearly
+ * <a href="./model.002">model.002</a>: Linear - the second generation model which evolves linearly
 
